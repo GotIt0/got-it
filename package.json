@@ -1,0 +1,31 @@
+{
+  "name": "got-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mysql2": "^1.5.3",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6",
+    "sqlite3": "^4.0.0",
+    "tedious": "^2.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GotIt0/got-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GotIt0/got-it/issues"
+  },
+  "homepage": "https://github.com/GotIt0/got-it#readme"
+}
