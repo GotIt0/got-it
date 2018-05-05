@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  var ItemsOnHand = sequelize.define("ItemsOnHand", {
+  var ItemList = sequelize.define("ItemList", {
     name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
 
-    product_name: {
+    item_name: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
@@ -31,21 +31,21 @@ module.exports = function(sequelize, DataTypes) {
     }
   });
 
-  ItemsOnHand.associate = function(models) {
+  ItemList.associate = function(models) {
     // We're saying that a Post should belong to an Author
     // A Post can't be created without an Author due to the foreign key constraint
-    ItemsOnHand.belongsTo(models.Category, {
+    ItemList.belongsTo(models.Category, {
       foreignKey: {
         allowNull: false
       }
     });
 
-  ItemsOnHand.belongsTo(models.User, {
+    ItemList.belongsTo(models.User, {
       foreignKey: {
         allowNull: false
       }
     });
   };
 
-  return ItemsOnHand;
+  return ItemList;
 };
