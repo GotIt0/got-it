@@ -3,7 +3,7 @@
 }
 
 body {
-   background-image: url("../images/home.jpg");
+   /* background-image: url("../images/home.jpg"); */
    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -52,4 +52,8 @@ hr {
     border: none;
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #ffffff;
+ }
+
+ div, section {
+     text-align: center;
  }
