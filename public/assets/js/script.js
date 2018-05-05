@@ -4,7 +4,8 @@ $(document).ready(function(){
 })
 $("#addButton").click(function(){
     for(i=0; i<buttonsArr.length; i++) {
-    buttonsArr.push("<button id='"+ i + "'>");
+   var buttons = $("<button id='"+ i + "'>");
+   buttonsArr.push(buttons);
     }
     $(".secondRowButtons").append(buttonsArr);
     $("#form").toggle();
