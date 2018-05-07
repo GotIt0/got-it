@@ -3,7 +3,7 @@
 }
 
 body {
-   /* background-image: url("../images/home.jpg"); */
+   background-image: url("../images/home.jpg");
    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -56,4 +56,12 @@ hr {
 
  div, section {
      text-align: center;
+ }
+
+  #functionPlaceHolder, .table, .whichUser, #findItemInfo, fieldset .form-group, #table, #neededList, #login, section, #firstRowButtons, .card-body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  
  }
