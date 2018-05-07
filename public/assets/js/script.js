@@ -1,7 +1,13 @@
 var buttonsArr = [];
-// $(document).ready(function(){
-//     $("#form").hide();
-// })
+$(document).ready(function(){
+    $("#login").hide();
+    $("#findItemInfo").hide();
+    $(".form-group").hide();
+    $("#neededList").hide();
+    $("#form").hide();
+    $(".card").hide();
+    $("#dollar-amount").hide();
+})
 $("#addButton").click(function(){
     for(i=0; i<buttonsArr.length; i++) {
    var buttons = $("<button id='"+ i + "'>");
