@@ -27,12 +27,11 @@
                   
                   
 
-                  <div class="row"></div>
-                  <div class="row"></div>
+                  
                   <!--code for login-->
-                  <div class="row">
-                      <div class="col-lg-3"></div>
-                      <div class="col-lg-6 text-center">
+                 
+                    <div class="row">
+                      <div class="col-lg-12 text-center">
                             <form id="login">
                                 USERNAME: <br>
                                 <input type="text"> <br>
@@ -41,66 +40,79 @@
                                 <button id="loginButton">LOGIN</button>
                             </form>
                         </div>
-                        <div class="col-lg-3"></div>
-                  </div>
+                      </div>
+                 
                 
 
                   <div class="row">
-                      <div class="col-lg-6"></div>
                       <button class="oi oi-plus"></button>
                         </div>
                   
                   <br>
                   <br>
                   <div class="row">
-                      <div class="col-lg-3"></div>
-                      <div class="col-lg-6 text-center">
-                        <section id="firstRowButtons">
+                      <div id="firstRowButtons">
+                      <div class="col-lg-12 text-center">
+                        <section>
                             <button type="button" class="btn btn-primary">I just bought an item</button>
                             <button type="button" class="btn btn-primary">Add a member!</button>
                             <button type="button" class="btn btn-primary">Change Budget Information</button>
                         </section>
                     </div>
-                    <div class="col-lg-3"></div>
-                    </div> 
+                    </div>
+                    </div>
+
                     <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
                         <section id="functionPlaceHolder">
                             <div id="findItemInfo">
-                                <div class="col-lg-3"></div>
-                                    <div class="col-lg-6">
+                              
                                         <div class="form-group">
-                                            <div class="whichUser">
+                                            <span class="whichUser">
                                             <label for="name">Which user?</label>
                                                 <select class="form-control" id="nameofUser">
                                                 </select>
-                                             </div>
+                                            </span>
                                             </div>
-                                        </div>
-                                      <fieldset class="form-group">
-                                            <div class="row">
-                                              <legend class="col-form-label col-sm-2 pt-0">This item is: </legend>
-                                              <div class="col-sm-10">
-                                                <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                                                  <label class="form-check-label" for="gridRadios1">
-                                                    Part of My List
-                                                  </label>
-                                                </div>
-                                                <div class="form-check">
-                                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                                  <label class="form-check-label" for="gridRadios2">
-                                                    New Addition to My List
-                                                  </label>
-                                                </div>
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-6">
+                                    <fieldset class="form-group">
+                                            <legend class="col-form-label col-sm-2 pt-0">This item is: </legend>
+                                            <div class="col-sm-10">
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                                                <label class="form-check-label" for="gridRadios1">
+                                                  Part of My List
+                                                </label>
+                                              </div>
+                                              <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                                <label class="form-check-label" for="gridRadios2">
+                                                  New Addition to My List
+                                                </label>
                                               </div>
                                             </div>
-                                          </fieldset>
-                                          </div>
-                               </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                   
+                                
+
+                                      
+                                        
+                                        
+                                          
+                                         
+                              
+                            
                                
                             <div class="row">
-                             
-
                                 <div id="neededList">
                                         <table class="table">
                                                 <thead>
@@ -132,7 +144,7 @@
                                                   </tr>
                                                 </tbody>
                                               </table>
-                                </div>
+                                </div>  
                             </div>
                                
                             <div id="addMember">
@@ -178,6 +190,11 @@
                                         </div>
                                      </div>
                                 </div>
+
+
+
+
+
                                 <div id="changeBudget">
                                     <form id="budget-form">
                                             <div class="form-group">
@@ -210,11 +227,11 @@
                                 </div>
 
                         </section>
-                    </div>
+                    
                     <div class="row">
                         <section id="ItemAddition">
                                 <div id="addAnItem">
-                                        <div class="col-lg-3"></div>
+                                        
                                         <div class="col-lg-6 text-center">
                                          <div class="form-group">
                                              <div id="chooseItem">
@@ -223,7 +240,7 @@
                                                      </select>
                                                  </div>
                                              </div>
-                                         <div class="col-lg-3"></div>
+                                         
                                          <div class="row">
      
                                                  <div class="input-group mb-3">
@@ -257,9 +274,12 @@
                
 
                  <!-- second row of buttons will be appended here-->
-                 <div class="row">
+                 <div class="row" id="table">
                  <div id="accordion">
                         <div class="card">
+                        <div class="row">
+                            <div class="col-lg-3"></div>
+                            <div class="col-lg-6">
                           <div class="card-header" id="headingOne">
                             <h5>
                               <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -267,9 +287,11 @@
                               </button>
                             </h5>
                           </div>
-                      
+                        </div>
+                      </div>
                           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
+                            <div class="card-body col-lg-6">
+                                <div id="table-create">
                                     <table class="table">
                                             <thead>
                                               <tr>
@@ -300,9 +322,19 @@
                                               </tr>
                                             </tbody>
                                           </table>
+                                       
+                                        </div>
                             </div>
-                          </div>
+                            </div>
                         </div>
+                    </div>
+                    </div>
+                   
+                   
+                   
+                    <div class="row">
+                        <div class="col-lg-3"></div>
+                        <div class="col-lg-6">
                         <div class="card">
                           <div class="card-header" id="headingTwo">
                             <h5 >
@@ -333,6 +365,7 @@
                         </div>
                       </div>
                     </div>
+                    
 
 
                   
