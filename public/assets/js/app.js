@@ -33,7 +33,7 @@ $(document).ready(function(){
         option_i.attr("data-value", memberNum[i]);
         $(".nameofUser").append(option_i);
     }
-}
+
 
      $("form-submit").on("submit", function(event) {
          // Make sure to preventDefault on a submit event.
