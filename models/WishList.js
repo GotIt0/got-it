@@ -8,7 +8,7 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
 
-    product_name: {
+    item_name: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
