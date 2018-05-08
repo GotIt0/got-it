@@ -1,36 +1,44 @@
 <html>
-    <head>
-        <title>Got it!</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="./assets/js/script.js"></script>
-    </head>
-    <body>
-            
-            <!--code for nav-bar-->
-           
-                  <nav class="navbar navbar-light bg-light">
-                    <span class="navbar-brand mb-0 h1">Home</span>
-                  </nav>
 
-                 <hr>
-                    <h1> GOT IT</h1>
-                <hr>
-                  <br>
-                  <h3> Your one stop shop for all things organization.</h3>
-                  <!-- code for menu buttons-->
-                  
-                  
+<head>
+    <title>Got it!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
 
-                  
-                  <!--code for login-->
-                 
-                    <div class="row">
+</head>
+
+<body>
+
+    <!--code for nav-bar-->
+
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Home</span>
+    </nav>
+
+    <hr>
+    <h1> GOT IT</h1>
+    <hr>
+    <br>
+    <h3> Your one stop shop for all things organization.</h3>
+    <!-- code for menu buttons-->
+
+
+
+
+    <!--code for login-->
+
+    <!-- <div class="row">
                       <div class="col-lg-12 text-center">
                             <form id="login">
                                 USERNAME: <br>
@@ -40,351 +48,374 @@
                                 <button id="loginButton">LOGIN</button>
                             </form>
                         </div>
-                      </div>
-                 
-                
+                      </div> -->
 
-                  <div class="row">
-                      <button class="oi oi-plus"></button>
+
+    <br>
+    <br>
+    <div class="row">
+        <div id="firstRowButtons">
+            <div class="col-lg-12 text-center">
+                <section>
+                    <button type="button" id="boughtIitem" class="btn btn-primary">I just bought an item</button>
+                    <button type="button" id="wishList" class="btn btn-primary">View Wish List</button>
+                    <button type="button" id="addMember" class="btn btn-primary">Add a member!</button>
+                    <button type="button" id="changeBudget" class="btn btn-primary">Change Budget Information</button>
+                </section>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <section id="functionPlaceHolder">
+                <div id="findItemInfo" style="display:none">
+
+                    <div class="form-group">
+                        <span class="whichUser">
+                            <label for="name">Which user?</label>
+                            <select class="form-control" id="nameofUser">
+                            </select>
+                        </span>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <div class="row" id="radio-buttons">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <fieldset class="form-group">
+                <legend class="col-form-label col-sm-2 pt-0">This item is: </legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                    <label class="form-check-label" for="gridRadios1">
+                        Part of My List
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        New Addition to My List
+                    </label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+        <div id="neededList">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Item Description</th>
+                        <th scope="col">Amount Needed</th>
+                        <th scope="col">Budget Left</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"></th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="formToAddMember" style="display:none">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 text-center">
+                <form id="form">
+                    Tell us about yourself!
+                    <br>
+                    <br> Name:
+                    <br>
+                    <input type="text" name="firstName" id="name">
+                    <br> Item Needed:
+                    <br>
+                    <input type="text" name="itemNeeded" id="item">
+                    <br> Quantity:
+                    <br>
+                    <input type="text" name="quantity" id="quantity">
+                    <br> Price:
+                    <br>
+                    <input type="text" name="price" id="price">
+                    <br>
+                    <br>
+                    <br> I hope to pay:
+                    <br>
+                    <span class="input-group-text">$</span>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Item description:</label>
+                        <input type="text" class="form-control" id="itemDescription">
+                    </div>
+                    <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)"> I will pay no more than:
+                    <br>
+                    <span class="input-group-text">$</span>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Item description:</label>
+                        <input type="text" class="form-control" id="itemDescription">
+                    </div>
+                    <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+
+                    </div>
+
+
+
+                    <button type="button" id="add-another-item"> Add Another Member</button>
+                    <button type="submit" id="form-submit">Submit</button>
+
+                </form>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="formToChangeBudget">
+
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6">
+                <form id="budget-form">
+                    <div class="form-group">
+                        <div class="whichUser">
+                            <label for="exampleFormControlSelect1">Which User?</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                                <option></option>
+                            </select>
                         </div>
-                  
-                  <br>
-                  <br>
-                  <div class="row">
-                      <div id="firstRowButtons">
-                      <div class="col-lg-12 text-center">
-                        <section>
-                            <button type="button" id="bought-item" class="btn btn-primary">I just bought an item</button>
-                            <button type="button" id="add-member" class="btn btn-primary">Add a member!</button>
-                            <button type="button" id= "change-budget" class="btn btn-primary">Change Budget Information</button>
-                        </section>
-                    </div>
-                    </div>
-                    </div>
-                    <br><br>
-
-                    <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                        <section id="functionPlaceHolder">
-                            <div id="findItemInfo">
-                              
-                                        <div class="form-group">
-                                            <span class="whichUser">
-                                            <label for="name">Which user?</label>
-                                                <select class="form-control" id="nameofUser">
-                                                </select>
-                                            </span>
-                                            </div>
-                                    
-                                    </div>
-                                </div>
-                                </div>
-                            <div class="row">
-                                <div class="col-lg-3"></div>
-                                <div class="col-lg-6">
-                                    <fieldset class="form-group">
-                                        <legend class="col-form-label col-sm-2 pt-0">This item is: </legend>
-                                              <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                                                <label class="form-check-label" for="gridRadios1">
-                                                  Part of My List
-                                                </label>
-                                              </div>
-                                              <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                                <label class="form-check-label" for="gridRadios2">
-                                                  New Addition to My List
-                                                </label>
-                                              </div>
-                                            </fieldset>
-                                        </div>
-                                        <div class="col-lg-3"></div>
-                                    </div>
-                                   
-                                
-
-                                      
-                                        
-                                        
-                                          
-                                         
-                              
-                            
-                               
-                            <div class="row">
-                                <div id="neededList">
-                                        <table class="table">
-                                                <thead>
-                                                  <tr>
-                                                    <th scope="col">Name</th>
-                                                    <th scope="col">Item Description</th>
-                                                    <th scope="col">Amount Needed</th>
-                                                    <th scope="col">Budget Left</th>
-                                                  </tr>
-                                                </thead>
-                                                <tbody>
-                                                  <tr>
-                                                    <th scope="row"></th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                  </tr>
-                                                  <tr>
-                                                    <th scope="row"></th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                  </tr>
-                                                  <tr>
-                                                    <th scope="row"></th>
-                                                    <td></td>
-                                                    <td></td>
-                                                    <td></td>
-                                                  </tr>
-                                                </tbody>
-                                              </table>
-                                </div>  
-                            </div>
-                               
-                            <div id="addMember">
-                                <div class="row">
-                                    <div class="col-lg-3"></div>
-                                        <div class="col-lg-6 text-center">
-                                            <form id="form">
-                                                 Tell us about yourself! <br><br>
-                                                 Name: <br>
-                                                 <input type="text" name="firstName"> <br>
-                                                 Item Needed: <br>
-                                                 <input type="text"name="itemNeeded"><br>
-                                                 Quantity: <br>
-                                                 <input type="text"name="quantity"> <br>
-                                                 Price: <br>
-                                                 <input type="text" name="price"><br><br><br>
-                                                 I hope to pay: <br>
-                                                 <span class="input-group-text">$</span>
-                                                    <div class="form-group">
-                                                            <label for="exampleInputPassword1">Item description:</label>
-                                                            <input type="text" class="form-control" id="itemDescription" >
-                                                        </div>
-                                                        <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                                        <div class="input-group-append">
-                                                            
-                                                        </div>
-                                                 I will pay no more than: <br>
-                                                    <span class="input-group-text">$</span>
-                                                           <div class="form-group">
-                                                                   <label for="exampleInputPassword1">Item description:</label>
-                                                                   <input type="text" class="form-control" id="itemDescription" >
-                                                            </div>
-                                                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                                             <div class="input-group-append">
-                                                                   
-                                                             </div>
-                                                    
-                    
-                    
-                                                <button type="button" id="add-another-item"> Add Another Member</button>
-                                                <button type="button" id="form-submit">Submit</button>
-                    
-                                            </form>
-                                        </div>
-                                        <div class="col-lg-3"></div>
-                                     </div>
-                                </div>
-
-
-
-
-
-                                <div id="changeBudget">
-                                    <form id="budget-form">
-                                        <div class="row">
-                                                <div class="col-lg-3"></div>
-                                            <div class="col-lg-6">
-                                            <div class="form-group">
-                                                <div class="whichUser">
-                                                    <label for="exampleFormControlSelect1">Which User?</label>
-                                                    <select class="form-control" id="exampleFormControlSelect1">
-                                                      <option></option>
-                                                      <option></option>
-                                                      <option></option>
-                                                      <option></option>
-                                                      <option></option>
-                                                    </select>
-                                                    </div>
-                                                    <div class="input-group-append">
-                                                            <span class="input-group-text">.00</span>
-                                                        </div>
-                                                    New Budget: <br>
-                                                    <span class="input-group-text">$</span>
-                                                           <div class="form-group">
-                                                                   <label for="exampleInputPassword1">Item description:</label>
-                                                                   <input type="text" class="form-control" id="itemDescription" >
-                                                            </div>
-                                                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                                             <div class="input-group-append">
-                                                                   <span class="input-group-text">.00</span>
-                                                             </div>
-                                                  </div>
-                                                </div>
-                                                <div class="col-lg-3"></div>
-                                             </div>  
-                                    </form>
-                                </div>
-
-                        </section>
-                    
-                    <div class="row">
-                                <div class="col-lg-3"></div>
-                                <div class="col-lg-6 text-center">
-                                    <section id="ItemAddition">
-                                    <div id="addAnItem">
-                                        <div class="form-group">
-                                             <div id="chooseItem">
-                                                 <label for="name">Which item?: </label>
-                                                     <select class="form-control" id="nameofUser">
-                                                     </select>
-                                                 </div>
-                                             </div>
-                                        </div>
-                                        
-                                    </div>
-                                    <div class="col-lg-3"></div>
-                                </div>
-                                         
-                                         <div class="row">
-                                            <div class="col-lg-3"></div>
-                                            <div id="dollar-amount" class="col-lg-6">
-                                                 <div class="input-group mb-3">
-                                                         <div class="input-group-prepend">
-                                                             <label>Item Cost:</label>
-                                                             <span class="input-group-text">$</span>
-                                                            </div>
-                                                         </div>
-                                                         <div id="item-description">
-                                                            <div id="newItem">
-                                                                 <label for="exampleInputPassword1">Item description:</label>
-                                                                 <input type="text" class="form-control" id="itemDescription" >
-                                                               </div>
-                                                         <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                                                 <div class="input-group-append">
-                                                                     <span class="input-group-text">.00</span>
-                                                                    </div>
-                                                                 </div>
-             
-                                                             </div>
-                                                          <div class="col-lg-3"></div>  
-                                                 </div>
-                                                 
-                                             
-                                     
-                                  </section>
-                        
-                        <section id="card-holder"></section>
-                        <section id="view-selected"></section>
-                    
-                                  <br><br>
-                  <!-- code for toggle menu for second row of buttons-->
-               
-
-                 <!-- second row of buttons will be appended here-->
-                 <div class="row" id="table">
-                 <div id="accordion">
-                        <div class="card">
-                        <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                          <div class="card-header" id="headingOne">
-                            <h5>
-                              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Name
-                              </button>
-                            </h5>
-                          </div>
+                        <div class="input-group-append">
+                            <span class="input-group-text">.00</span>
                         </div>
-                      </div>
-                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body col-lg-6">
-                                <div id="table-create">
-                                    <table class="table">
-                                            <thead>
-                                              <tr>
-                                                <th scope="col">Item Needed</th>
-                                                <th scope="col">Quantity Needed</th>
-                                                <th scope="col">Budget</th>
-                                                <th scope="col">Recently Purchased</th>
-                                              </tr>
-                                            </thead>
-                                            <tbody>
-                                              <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                              </tr>
-                                              <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                              </tr>
-                                            </tbody>
-                                          </table>
-                                       
-                                        </div>
-                            </div>
+                        New Budget:
+                        <br>
+                        <span class="input-group-text">$</span>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Item description:</label>
+                            <input type="text" class="form-control" id="itemDescription">
+                        </div>
+                        <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                        <div class="input-group-append">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+
+    </div>
+
+
+
+    </section>
+    <div id="addAnItem">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 text-center">
+                <section id="ItemAddition">
+                    
+                        <div class="form-group">
+                            <div id="chooseItem">
+                                <label for="name">Which item?: </label>
+                                <select class="form-control" id="nameofUser">
+                                </select>
                             </div>
                         </div>
                     </div>
+
+            </div>
+        <div class="col-lg-3"></div>
+    
+
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div id="dollar-amount" class="col-lg-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label>Item Cost:</label>
+                        <span class="input-group-text">$</span>
+                    </div>
+                </div>
+                <div id="item-description">
+                    <div id="newItem">
+                        <label for="exampleInputPassword1">Item description:</label>
+                        <input type="text" class="form-control" id="itemDescription">
+                    </div>
+                <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-3"></div>
+        </div>
+    </div>
+
+
+
+
+
+    </section>
+
+    <section id="card-holder"></section>
+    <section id="view-selected"></section>
+
+    <br>
+    <br>
+    <!-- code for toggle menu for second row of buttons-->
+
+
+    <!-- second row of buttons will be appended here-->
+    <div class="row" id="table">
+        <div id="accordion">
+            <div class="card">
+                <div class="row">
                     <div class="col-lg-3"></div>
-                    </div>
-                   
-                   
-                   
-                    <div class="row">
-                        <div class="col-lg-3"></div>
-                        <div class="col-lg-6">
-                        <div class="card">
-                          <div class="card-header" id="headingTwo">
-                            <h5 >
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Collapsible Group Item #2
-                              </button>
+                    <div class="col-lg-6">
+                        <div class="card-header" id="headingOne">
+                            <h5>
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Name
+                                </button>
                             </h5>
-                          </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                          </div>
                         </div>
-                        <div class="card">
-                          <div class="card-header" id="headingThree">
-                            <h5 >
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Collapsible Group Item #3
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                    
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body col-lg-6">
+                        <div id="table-create">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Item Needed</th>
+                                        <th scope="col">Quantity Needed</th>
+                                        <th scope="col">Budget</th>
+                                        <th scope="col">Recently Purchased</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3"></div>
+    </div>
 
 
-                  
 
-    </body>
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5>
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Collapsible Group Item #2
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5>
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                        non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                        synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+
 </html>
