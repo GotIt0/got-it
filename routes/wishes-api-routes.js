@@ -7,7 +7,7 @@
 
 // Requiring our models
 var db = require("../models");
-var scrape = require("../controllers");
+var scrape = require("../controllers/scrape");
 // Routes
 // =============================================================
 module.exports = function(app) {
