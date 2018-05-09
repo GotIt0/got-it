@@ -78,7 +78,6 @@ if (x==null || x=="")
             $("#ItemAddition").toggle();
         }
 
-        */
 var user_name = [];
 for (var i = 0; i < user_name.length; i++) {
     var option_i = $("<option>" + user_name[i] + "</option>");
@@ -108,4 +107,4 @@ function() {
     location.reload();
 }
 );
-});
+*/
