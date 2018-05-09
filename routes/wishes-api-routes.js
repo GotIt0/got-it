@@ -7,7 +7,7 @@
 
 // Requiring our models
 var db = require("../models");
-
+var scrape = require("../controllers");
 // Routes
 // =============================================================
 module.exports = function(app) {
@@ -42,6 +42,10 @@ module.exports = function(app) {
 
   // WishList route for saving a new WishList
   app.post("/api/wishes", function(req, res) {
+
+    var url = req.body.url;
+    var info = getInfo(url);
+
     db.WishList.create(req.body).then(function(dbWishes) {
       res.json(dbWishes);
     });
