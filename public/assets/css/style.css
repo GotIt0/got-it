@@ -176,3 +176,7 @@ hr {
     margin-top: 80px;
 }
 
+a {
+    color: black;
+    float: right;
+}

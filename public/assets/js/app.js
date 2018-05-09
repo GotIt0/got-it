@@ -1,32 +1,32 @@
 
-$(document).ready(function(){
-    $('#radio-buttons').hide();
-    $('#newItem').hide();
-    $('#formToAddMember').hide();
-    $('#formToChangeBudget').hide();
-    $('#dollar-amount').hide();
-    $('.card').hide();
-    $('#neededList').hide();
-    $("#addAnItem").hide();
 
-    $("#boughtIitem").click(function() {
-        $("#addAnItem").toggle();
-        console.log("im here");
-    });
-   
-    $("#wishList").click(function() {
-        $("#neededList").toggle();
-    });
+    $(document).ready(function(){
+
+
     
-    $("#addMember").click(function() {
-        $("#formToAddMember").toggle();
-    });
     
-    $("#changeBudget").click(function() {
-        $("#formToChangeBudget").toggle();
-        console.log("im here");
+
+        $("#boughtIitem").click(function() {
+            window.location.href= '#radio-buttons';
+        });
+       
+        $("#wishList").click(function() {
+            window.location.href= '#neededList';
+        });
         
-    });
+        $("#addMember").click(function() {
+            window.location.href='#formToAddMember';
+        });
+    
+        
+        $("#changeBudget").click(function() {
+            window.location.href='#formToChangeBudget';
+        
+            
+        });
+    })
+        
+  
 
         for (var i = 0; i < memberNum.length; i++) {
         var option_i =  $("<option>" + memberNum[i] + "</option>");
@@ -56,7 +56,7 @@ $(document).ready(function(){
              }
          );
      });
-})
+
 
 
 
