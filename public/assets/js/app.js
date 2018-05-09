@@ -1,42 +1,40 @@
+$(document).ready(function() {
 
-$(document).ready(function(){
-    $('#findItemInfo').hide();
-    $('#newItem').hide();
-    $('#formToAddMember').hide();
-    $('#formToChangeBudget').hide();
-    $('#dollar-amount').hide();
-    //$('.card').hide();
-    $('#neededList').hide();
-    $("#addAnItem").hide();
-    $("#formToAddItem").hide();
+
+
+
+
 
     $("#boughtIitem").click(function() {
-        $("#findItemInfo").toggle();
-        console.log("im here");
-    });
-   
-    $("#wishList").click(function() {
-        $("#neededList").toggle();
-    });
-    
-    $("#addMember").click(function() {
-        $("#formToAddMember").toggle();
-    });
-    
-    $("#changeBudget").click(function() {
-        $("#formToChangeBudget").toggle();
-        console.log("im here");
-        
+        window.location.href = '#radio-buttons';
     });
 
-        $("#addItem").click(function() {
-        $("#formToAddItem").toggle();
-        console.log("im here");
-        
+    $("#wishList").click(function() {
+        window.location.href = '#neededList';
     });
+
+    $("#addMember").click(function() {
+        window.location.href = '#formToAddMember';
+    });
+
+
+    $("#changeBudget").click(function() {
+        window.location.href = '#formToChangeBudget';
+
+
+    });
+})
+
+
+
+$("#addItem").click(function() {
+$("#formToAddItem").toggle();
+console.log("im here");
+
 });
 
-          /*
+
+/*
 
         function getRadioVal(form, name) {
     var val;
@@ -82,38 +80,32 @@ if (x==null || x=="")
 
         */
 var user_name = [];
-        for (var i = 0; i < user_name.length; i++) {
-        var option_i =  $("<option>" + user_name[i] + "</option>");
-        option_i.attr("data-value", nameInput[i]);
-        $(".nameOfUser").append(option_i);
-    }
+for (var i = 0; i < user_name.length; i++) {
+    var option_i = $("<option>" + user_name[i] + "</option>");
+    option_i.attr("data-value", nameInput[i]);
+    $(".nameOfUser").append(option_i);
+}
 
 
-     $("#form-submit").on("submit", function(event) {
-         // Make sure to preventDefault on a submit event.
-         event.preventDefault();
+$("#form-submit").on("submit", function(event) {
+    // Make sure to preventDefault on a submit event.
+    event.preventDefault();
 
 
-           var new_name = $("#newName").val().trim();
-            new_name.push(user_name[i]);
-     });
-     console.log(new_name);
+    var new_name = $("#newName").val().trim();
+    new_name.push(user_name[i]);
+});
+console.log(new_name);
 
-         // Send the POST request.
-         $.ajax("/", {
-             type: "POST",
-             data: newUser
-         }).then(
-             function() {
-                 console.log("created new user");
-                 // Reload the page to get the updated list
-                 location.reload();
-             }
-         );
-     });
-
-
-
-
-
-
+// Send the POST request.
+$.ajax("/", {
+type: "POST",
+data: newUser
+}).then(
+function() {
+    console.log("created new user");
+    // Reload the page to get the updated list
+    location.reload();
+}
+);
+});
