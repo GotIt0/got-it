@@ -23,20 +23,20 @@ body {
     height:100%;
 }
 
-#form, #login {
-    font-family: 'Poppins', sans-serif;
-}
+
 
 h1 {
-    font-family: 'Poppins', sans-serif;
+    
     text-align: center;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 120px;
     margin-top: 50px;
     
 }
 h3 {
     text-align: center;
+    font-size: 22px;
+    color: white;
 }
 hr {
     display: block;
@@ -63,5 +63,116 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font: inherit;
+    font-family: roboto,sans-serif
   
  }
+.btn-primary {
+    background-color: #6c757d;
+}
+
+
+ .cd-fixed-bg {
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+ }
+
+ .cd-fixed-bg.cd-fixed-bg--1 {
+    background-color: burlywood;
+    color: white;
+    margin-top: 15px;
+  }
+
+  label, th {
+      color: white;
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--2 {
+    background-color: burlywood;
+    color: white;
+
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--3 {
+    background-color: burlywood;
+    color: white;
+  }
+  
+  .cd-fixed-bg.cd-fixed-bg--4 {
+    background-color:burlywood;
+    font-size: 1.6rem
+    font-family: roboto, sans-serif;
+
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--5 {
+    background-image: url("../images/kitchen.jpg");
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--6 {
+    background-image: url("../images/hangers.jpg");
+  }
+
+  .cd-fixed-bg.cd-fixed-bg--7 {
+    background-image: url("../images/home.jpg");
+  }
+  .cd-fixed-bg.cd-fixed-bg--8 {
+    background-color: burlywood;
+    color: white;
+  }
+  .cd-fixed-bg.cd-fixed-bg--9 {
+    background-color: burlywood;
+    color: white;
+  }
+  
+  .cd-scrolling-bg {
+    min-height: 90%;
+    background-image: url("../images/home.jpg");
+  }
+
+  #table-create {
+      font-size: 15px;
+      text-align: center;
+  }
+
+  h4 {
+    font-weight: 300;
+    line-height: 1.15;
+    color: #FFFFFF;  
+    font-size: 30px; 
+    margin-bottom: 30px;
+  }
+
+  .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.justify-content-end {
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+#firstRow {
+    margin-top: 80px;
+}
+
