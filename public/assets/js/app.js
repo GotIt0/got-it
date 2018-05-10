@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     $(document).ready(function(){
@@ -95,3 +96,37 @@ $(document).ready(function(){
 
 })
 >>>>>>> 202b3d099fec52ed85686e91e29ba56163e36d4d
+=======
+
+$(document).ready(function(){
+    $('#radio-buttons').hide();
+    $('#newItem').hide();
+    $('#formToAddMember').hide();
+    $('#formToChangeBudget').hide();
+    $('#dollar-amount').hide();
+    $('.card').hide();
+    $('#neededList').hide();
+    $("#addAnItem").hide();
+
+    $("#boughtIitem").click(function() {
+        $("#addAnItem").toggle();
+        console.log("im here");
+    });
+   
+    $("#wishList").click(function() {
+        $("#neededList").toggle();
+    });
+    
+    $("#addMember").click(function() {
+        $("#formToAddMember").toggle();
+    });
+    
+    $("#changeBudget").click(function() {
+        $("#formToChangeBudget").toggle();
+        console.log("im here");
+        
+    });
+
+})
+
+>>>>>>> 7544b8b25b5c5f3d4bb2c2f0644bb04785beeca7
