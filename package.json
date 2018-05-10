@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/GotIt0/got-it/issues"
   },
-  "homepage": "https://github.com/GotIt0/got-it#readme"
+  "homepage": "https://github.com/GotIt0/got-it#readme",
+  "directories": {
+    "test": "test"
+  }
 }
