@@ -60,7 +60,7 @@
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
                 <h3>See what you want</h3>
-                <button type="button" id="wishList" class="btn btn-primary">View Wish List</button>
+                <button type="button" id="wishList" class="btn btn-primary">Wish List</button>
             </div>
         </div>
         <div class="col-lg-3">
@@ -70,6 +70,7 @@
                 <h3>Join us</h3>
                 <button type="button" id="addMember" class="btn btn-primary">Add a member!</button>
             </div>
+           
         </div>
         <div class="col-lg-3">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
@@ -156,6 +157,7 @@
         </div>
         <div class="cd-fixed-bg cd-fixed-bg--2">
             <div class="row">
+                <div class="col-lg-6">
                 <div id="neededList">
                     <table class="table">
                         <thead>
@@ -188,6 +190,50 @@
                         </tbody>
                     </table>
                 </div>
+                </div>
+                <div class="col-lg-6">
+                    <h4>Add to your wish list!</h4>
+                    <form id="form">
+                            Tell us about about the item!
+                            <br>
+                            <br> Name:
+                            <br>
+                            <input type="text" name="firstName" id="name">
+                            <br> Item Needed:
+                            <br>
+                            <input type="text" name="itemNeeded" id="item">
+                            <br> Quantity:
+                            <br>
+                            <input type="text" name="quantity" id="quantity">
+                            <br> Price:
+                            <br>
+                            <input type="text" name="price" id="price">
+                            <br>
+                            <br>
+                            <br> I hope to pay:
+                            <br>
+                            <span class="input-group-text">$</span>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Item description:</label>
+                                <input type="text" class="form-control" id="itemDescription">
+                            </div>
+                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)"> I will pay no more than:
+                            <br>
+                            <span class="input-group-text">$</span>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Item description:</label>
+                                <input type="text" class="form-control" id="itemDescription">
+                            </div>
+                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                            </div>
+                            <br>
+                            <button type="button" id="add-another-item" class="btn btn-primary"> Add Another Member</button>
+                            <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    
+                </div>
+            </div>
             </div>
         </div>
         <div class="cd-fixed-bg cd-fixed-bg--6">
@@ -266,55 +312,9 @@
             </div>
         </div>
         </section>
-        <div class="cd-fixed-bg cd-fixed-bg--6"></div>
-        <div class=" cd-fixed-bg cd-fixed-bg--8">
-        </div>
-        <div class="cd-fixed-bg cd-fixed-bg--8">
-            <div class="row">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-6">
-                    <form id="form">
-                        Tell us about about the item!
-                        <br>
-                        <br> Name:
-                        <br>
-                        <input type="text" name="firstName" id="name">
-                        <br> Item Needed:
-                        <br>
-                        <input type="text" name="itemNeeded" id="item">
-                        <br> Quantity:
-                        <br>
-                        <input type="text" name="quantity" id="quantity">
-                        <br> Price:
-                        <br>
-                        <input type="text" name="price" id="price">
-                        <br>
-                        <br>
-                        <br> I hope to pay:
-                        <br>
-                        <span class="input-group-text">$</span>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Item description:</label>
-                            <input type="text" class="form-control" id="itemDescription">
-                        </div>
-                        <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)"> I will pay no more than:
-                        <br>
-                        <span class="input-group-text">$</span>
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Item description:</label>
-                            <input type="text" class="form-control" id="itemDescription">
-                        </div>
-                        <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                        <div class="input-group-append">
-                        </div>
-                        <br>
-                        <button type="button" id="add-another-item" class="btn btn-primary"> Add Another Member</button>
-                        <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-                <div class="col-lg-3"></div>
-            </div>
-        </div>
+       
+       
+     
         </section>
         <section id="card-holder"></section>
         <section id="view-selected"></section>
