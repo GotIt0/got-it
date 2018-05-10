@@ -23,6 +23,26 @@ body {
     height:100%;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: black;
+}
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li {
+    float: right;
+}
+
 
 
 h1 {
@@ -179,4 +199,17 @@ hr {
 a {
     color: black;
     float: right;
+}
+
+.navbargroup {
+    width: 100%;
+    
+}
+.navbar-container {
+    float: right;
+
+}
+
+nav {
+    background-color: burlywood;
 }
