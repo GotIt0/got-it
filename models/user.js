@@ -11,7 +11,7 @@ module.exports = function(sequelize, DataTypes) {
 
     budget: {
       type: DataTypes.DECIMAL(10, 2),
-      allowNull: false
+      allowNull: true
     }
   });
 
