@@ -58,6 +58,7 @@ h3 {
     text-align: center;
     font-size: 22px;
     color: white;
+    font-weight: bold;
 }
 
 hr {
@@ -100,9 +101,17 @@ section,
     font-family: roboto, sans-serif
 }
 
-.btn-primary {
-    background-color: #6c757d;
+.whichUser {
+    margin-top: 20px;
 }
+
+
+
+#firstRow {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 
 
 .cd-fixed-bg {
@@ -111,14 +120,21 @@ section,
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: burlywood;
     font-size: 20px;
     font-family: roboto, sans-serif;
+    padding: 50px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--1 {
     background-color: burlywood;
     color: white;
     margin-top: 15px;
+    min-height: 30;
+    transition: transform .2s; 
+}
+.cd-fixed-bg.cd-fixed-bg--1: hover {
+    transform: scale(1.0);
 }
 
 label,
@@ -129,16 +145,21 @@ th {
 .cd-fixed-bg.cd-fixed-bg--2 {
     background-color: burlywood;
     color: white;
+    transition: transform .2s; 
+    padding: 60px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--3 {
     background-color: burlywood;
     color: white;
+    transition: transform .2s; 
 }
 
 .cd-fixed-bg.cd-fixed-bg--4 {
     background-color: burlywood;
-    font-size: 1.6rem font-family: roboto, sans-serif;
+    font-size: 1.6rem 
+    font-family: roboto, sans-serif;
+    transition: transform .2s; 
 }
 
 .cd-fixed-bg.cd-fixed-bg--5 {
@@ -156,12 +177,9 @@ th {
 .cd-fixed-bg.cd-fixed-bg--8 {
     background-color: burlywood;
     color: white;
+    transition: transform .2s; 
 }
 
-.cd-fixed-bg.cd-fixed-bg--9 {
-    background-color: burlywood;
-    color: white;
-}
 
 
 .reveal-if-active {
@@ -242,5 +260,56 @@ a {
 
 nav {
     background-color: burlywood;
+}
+
+/* .form-check {
+    margin-top: 30px;
+} */
+
+#itemIs {
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+#entryForm {
+    margin-top: 35px;
+}
+
+input, .form-control, .input-group-text {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+tr, th, td, label, h2, h4, h3, h5, .table {
+    color: black;
+}
+
+h2, h3 {
+    width: 100%;
+}
+
+
+#updateBudget {
+    font-weight: bold;
+    color: black;
+    margin-top: 5px;
+}
+
+
+
+#buttons {
+    margin-top: 20px;
+    
+}
+
+.input-wish {
+    padding: 5px 0;
+  
+}
+
+.input-wish > * {
+    display: block;
+    margin: 0 auto;
 }
 
