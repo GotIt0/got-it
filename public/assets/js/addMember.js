@@ -1,14 +1,14 @@
 function member(){
     // Getting references to the name input and m container, as well as the table body
-    var nameInput = $("#name");
-    var budgetInput = $("#budget");
+    var nameInput = $("#newName");
+    var budgetInput = $("#dollarName");
     var memberList = $("#memberList");
     var memberContainer = $(".member-container");
   
     // Adding event listeners to the form to create a new object, and the button to delete
     // an m
-    $(document).on("submit", "#addMemberForm", addMember);
-    $(document).on("click", ".delete-member", deleteMember);
+    $(document).on("submit", "#add-another-member", addMember);
+    $(document).on("click", "#form-submit", deleteMember);
   
     // Getting the initial list of member
     getMember();
