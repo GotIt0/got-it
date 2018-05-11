@@ -1,30 +1,30 @@
 
-// $(document).ready(function() {
+$(document).ready(function() {
 
 
 
 
 
 
-//     $("#boughtIitem").click(function() {
-//         window.location.href = '#radio-buttons';
-//     });
+    $("#boughtIitem").click(function() {
+        window.location.href = '#radio-buttons';
+    });
 
-//     $("#wishList").click(function() {
-//         window.location.href = '#neededList';
-//     });
+    $("#wishList").click(function() {
+        window.location.href = '#neededList';
+    });
 
-//     $("#addMember").click(function() {
-//         window.location.href = '#formToAddMember';
-//     });
-
-
-//     $("#changeBudget").click(function() {
-//         window.location.href = '#formToChangeBudget';
+    $("#addMember").click(function() {
+        window.location.href = '#formToAddMember';
+    });
 
 
-//     });
-// })
+    $("#changeBudget").click(function() {
+        window.location.href = '#formToChangeBudget';
+
+
+    });
+})
 
 
 
