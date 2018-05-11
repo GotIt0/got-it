@@ -101,12 +101,15 @@ section,
     font-family: roboto, sans-serif
 }
 
-.btn-primary {
-    background-color: #6c757d;
+.whichUser {
+    margin-top: 20px;
 }
 
+
+
 #firstRow {
-    margin-top: 50%:
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
@@ -286,9 +289,6 @@ h2, h3 {
     width: 100%;
 }
 
-.whichUser{
-    margin-top: 65px;
-}
 
 #updateBudget {
     font-weight: bold;
@@ -296,14 +296,20 @@ h2, h3 {
     margin-top: 5px;
 }
 
-#secondColumn {
-    margin-top: 20px;
-}
+
 
 #buttons {
-    position: relative;
-    float: right;
-    margin-right: 17%;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 20px;
+    
 }
+
+.input-wish {
+    padding: 5px 0;
+  
+}
+
+.input-wish > * {
+    display: block;
+    margin: 0 auto;
+}
+

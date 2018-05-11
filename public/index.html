@@ -41,16 +41,17 @@
         </div>
 
     </nav>
-    <br>
+
     <!-- code for menu buttons-->
-    <br>
-    <br>
+
+
     <div class="row">
         <div class="col-lg-4">
             <hr>
-            <h1> GOT IT</h1>
-            <h4> Do you find yourself losing track of your recent purchases?
-                <br> We're here to help.</h4>
+            <div id="heading">
+                <h1> GOT IT</h1>
+                <h4> Do you find yourself losing track of your recent purchases? We're here to help.</h4>
+            </div>
             <hr>
         </div>
     </div>
@@ -61,7 +62,7 @@
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
                 <h3>Add to your Collection</h3>
-                <button type="button" id="boughtIitem" class="btn btn-primary">I just bought an item</button>
+                <button type="button" id="boughtIitem" class="btn btn-secondary">I just bought an item</button>
             </div>
         </div>
         <div class="col-lg-3">
@@ -69,7 +70,7 @@
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
                 <h3>See what you want</h3>
-                <button type="button" id="wishList" class="btn btn-primary">Wish List</button>
+                <button type="button" id="wishList" class="btn btn-secondary">Wish List</button>
             </div>
         </div>
         <div class="col-lg-3">
@@ -77,7 +78,7 @@
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
                 <h3>Join us</h3>
-                <button type="button" id="addMember" class="btn btn-primary">Add a member!</button>
+                <button type="button" id="addMember" class="btn btn-secondary">Add a member!</button>
             </div>
 
         </div>
@@ -87,13 +88,13 @@
 
                 </div>
                 <h3>Tight on Cash?</h3>
-                <button type="button" id="changeBudget" class="btn btn-primary">Change Budget Info</button>
+                <button type="button" id="changeBudget" class="btn btn-secondary">Change Budget Info</button>
             </div>
-      
-     </div> 
+
+        </div>
     </div>
-    <br>
-    <br>
+
+
     <div class="row">
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
@@ -115,170 +116,170 @@
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
                 <fieldset class="form-group">
-                
-                            <h2 id="itemIs" style="display: inline">Add an Item! </h2><br><br>
-                        <h5> This item is: </h5>
-                <div id="entryForm">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                        <label id-"partOf" class="form-check-label" for="gridRadios1">
-                            Part of My List
-                        </label>
-                        <div class="form-group reveal-if-active">
-                            <div id="chooseItem">
-                                <label for="name">Which item?: </label>
-                                <select class="form-control" id="nameofUser">
-                                </select>
-                            </div>
-                            <div class="col-lg-3"></div>
-                            <div class="row">
+
+                    <h2 id="itemIs">Add an Item! </h2>
+                    <h5> This item is: </h5>
+                    <div id="entryForm">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                            <label id- "partOf" class="form-check-label" for="gridRadios1">
+                                Part of My List
+                            </label>
+                            <div class="form-group reveal-if-active">
+                                <div id="chooseItem">
+                                    <label for="name">Which item?: </label>
+                                    <select class="form-control" id="nameofUser">
+                                    </select>
+                                </div>
                                 <div class="col-lg-3"></div>
-                                <div id="dollar-amount" class="col-lg-6">
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <label>Item Cost:</label>
-                                            <span class="input-group-text">$</span>
+                                <div class="row">
+                                    <div class="col-lg-3"></div>
+                                    <div id="dollar-amount" class="col-lg-6">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <label>Item Cost:</label>
+                                                <span class="input-group-text">$</span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                        <label class="form-check-label" for="gridRadios2">
-                            New Addition to My List
-                        </label>
-                        <div id="item-description" class="reveal-if-active">
-                            <div id="newItem">
-                                <label for="exampleInputPassword1">Item description:</label>
-                                <input type="text" class="form-control" id="itemDescription">
-                            </div>
-                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                            <div class="input-group-append">
-                                <label>Item Cost:</label>
-                                <span class="input-group-text">.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                    <div class="cd-fixed-bg cd-fixed-bg--1">
-                        <div class="row">
-                            <div class="col-lg-4"></div>
-                            <div class="col-lg-4">
-                                <div id="findItemInfo" style="">
-                                    <div class="form-group">
-                                        <span class="whichUser">
-                                            <label for="name">Select User:</label>
-                                            <select class="form-control" id="nameOfUser">
-                                            </select>
-                                        </span>
-                                    </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                New Addition to My List
+                            </label>
+                            <div id="item-description" class="reveal-if-active">
+                                <div id="newItem">
+                                    <label for="exampleInputPassword1">Item description:</label>
+                                    <input type="text" class="form-control" id="itemDescription">
+                                </div>
+                                <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                    <label>Item Cost:</label>
+                                    <span class="input-group-text">.00</span>
                                 </div>
                             </div>
                         </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <div id="findItemInfo" style="">
+                                <div class="form-group">
+                                    <span class="whichUser">
+                                        <label for="name">Select User:</label>
+                                        <select class="form-control" id="nameOfUser">
+                                        </select>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </fieldset>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+    <div class="cd-fixed-bg cd-fixed-bg--5">
+    </div>
+    <div class="cd-fixed-bg cd-fixed-bg--2">
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="neededList">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Item Description</th>
+                                <th scope="col">Amount Needed</th>
+                                <th scope="col">Budget Left</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <th scope="row"></th>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col-lg-4"></div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="row">
+
+                    <h2 style="text-align:center">Add to your wish list!</h2>
+                    <h3 style="text-align: center">Tell us about about the item!</h3>
+
+                    <div class="col-lg-6">
+                        <div class="input-wish">
+                            <label>Name:</label>
+                            <input type="text" name="firstName" id="name">
+                        </div>
+                        <div class="input-wish">
+                            <label>Item Needed:</label>
+                            <input type="text" name="itemNeeded" id="item">
+                        </div>
+                        <div class="input-wish">
+                            <label>Quantity:</label>
+                            <input type="text" name="quantity" id="quantity">
+                        </div>
+                        <div class="input-wish">
+                            <label>Price:</label>
+                            <input type="text" name="price" id="price">
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="col-lg-6">
+                        <div class="input-wish">
+                            <label>I hope to pay:</label>
+                            <input type="text" name="firstName" id="priceWish">
+                        </div>
+
+                        <div class="input-wish">
+                            <label>Item Description:</label>
+                            <input type="text" name="itemNeeded" id="itemDescription">
+                        </div>
+                        <div class="input-wish">
+                            <label>I will pay no more than:</label>
+                            <input type="text" name="quantity" id="priceMax">
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="btn-group mt-3">
+                    <button type="button" id="add-another-item-2" class="btn btn-secondary"> Add Another item</button>
+                    <button type="submit" id="submit-form" class="btn btn-secondary">Submit</button>
+                </div>
             </div>
         </div>
-        <div class="cd-fixed-bg cd-fixed-bg--5">
-        </div>
-        <div class="cd-fixed-bg cd-fixed-bg--2">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div id="neededList">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Name</th>
-                                    <th scope="col">Item Description</th>
-                                    <th scope="col">Amount Needed</th>
-                                    <th scope="col">Budget Left</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <th scope="row"></th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div> 
-                
-                <div class="col-lg-6">  
-                        <div class="row"> 
-       
-                <h2 style="text-align:center">Add to your wish list!</h2>
-                <h3 style="text-align: center">Tell us about about the item!</h3> 
-                <div class="col-lg-6">
-                    <div id="idk">
-                   
-                    <form id="form">
-                       
-                    </div>
-                        <br>
-                        <br><label>Name:</label>
-                        <br>
-                        <input type="text" name="firstName" id="name">
-                        <br> <label>Item Needed:</label>
-                        <br>
-                        <input type="text" name="itemNeeded" id="item">
-                        <br> <label>Quantity</label>
-                        <br>
-                        <input type="text" name="quantity" id="quantity">
-                        <br> <label>Price:</label>
-                        <br>
-                        <input type="text" name="price" id="price">
-                        
-                </div>
-                
-        
-            
-                
-                <div  id="secondColumn" class="col-lg-6">
 
-                   
-                    <br>
-                    <br> <label>I hope to pay:</label>
-                    <br>
-                    <input type="text" name="firstName" id="priceWish">
-                    <br> <label>Item Description:</label>
-                    <br>
-                    <input type="text" name="itemNeeded" id="itemDescription">
-                    <br> <label>I will pay no more than:</label>
-                    <br>
-                    <input type="text" name="quantity" id="priceMax">
-                    <br> <label>Price:</label>
-                    <br>
-                    <input type="text" name="price" id="price2">
-                </div>
-                </div>
-                </div>
-                </div>
-                <div id="buttons">
-                        <button type="button" id="add-another-item-2" class="btn btn-primary"> Add Another item</button>
-                        <button type="submit" id="submit-form" class="btn btn-primary">Submit</button>
-                </div>
-            
-        </div>
+
+    </div>
     </div>
     </div>
     <div class="cd-fixed-bg cd-fixed-bg--6">
@@ -289,17 +290,19 @@
                 <div class="col-lg-6 text-center">
                     <form id="form">
                         <h2>Tell us about yourself!</h2>
-                        <br>
-                        <br><label>Name:</label> 
-                        <br>
-                        <input type="text" name="firstName" id="newName">
-                        <br><label>My budget is:</label> 
-                        <br>
-                        <input type="text" name="dollarAmount" id="dollarName">
-                            <br><br>
-                       
-                        <button type="button" id="add-another-member" class="btn btn-primary"> Add Another Member</button>
-                        <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
+                        <div class="input-wish">
+                            <label>Name:</label>
+                            <input type="text" name="firstName" id="newName">
+                        </div>
+                        <div class="input-wish">
+                            <label>My budget is:</label>
+                            <input type="text" name="dollarAmount" id="dollarName">
+                        </div>
+
+                        <div class="btn-group mt-3">
+                            <button type="button" id="add-another-member" class="btn btn-secondary"> Add Another Member</button>
+                            <button type="submit" id="form-submit" class="btn btn-secondary">Submit</button>
+                        </div>
                     </form>
                 </div>
                 <div class="col-lg-6 text-center">
@@ -340,16 +343,20 @@
                         <div class="form-group">
                             <div class="whichUser">
                                 <h3 id="updateBudget"> Update Budget Info</h3>
-                                <label id="select" for="exampleFormControlSelect1">Select User:</label>
-                                <select class="form-control name">
-                                </select>
+                                <div class="input-wish">
+                                    <label id="select" for="exampleFormControlSelect1">Select User:</label>
+                                    <select class="form-control name">
+                                    </select>
+                                </div>
                             </div>
-                            <label>New Budget:</label>
-                            <br>
-                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                            <div class="input-group-append">
+                            <div class="input-wish">
+                                <label>New Budget:</label>
+                                 <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                                <div class="input-group-append">
+                                </div>
                             </div>
                         </div>
+                        <button type="submit" id="update-budget-submit" class="btn btn-secondary">Submit</button>
                     </form>
                 </div>
                 <div class="col-lg-4"></div>
@@ -363,8 +370,8 @@
     </section>
     <section id="card-holder"></section>
     <section id="view-selected"></section>
-    <br>
-    <br>
+
+
     <!-- code for toggle menu for second row of buttons-->
     <!-- second row of buttons will be appended here-->
     <div class="cd-fixed-bg cd-fixed-bg--9">
