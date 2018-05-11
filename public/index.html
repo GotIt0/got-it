@@ -2,12 +2,26 @@
 
 <head>
     <title>Got it!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<<<<<<< HEAD
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type=“text/javascript” src=“./assets/js/addMember.js”></script>
+    <script type="text/javascript" src="./assets/js/app.js"></script>
+
+=======
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
 </head>
 
 <body>
@@ -16,9 +30,21 @@
         <div class="navbar-brand mb-0 h1 navbargroup">
             <div class="navbar-container">
                 <ul>
+<<<<<<< HEAD
+                    <li>
+                        <a href="">About Us</a>
+                    </li>
+                    <li>
+                        <a href="">FAQ's</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+=======
                     <li><a href="">About Us</a></li>
                     <li><a href="">FAQ's</a></li>
                     <li><a href="">Contact Us</a></li>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                 </ul>
             </div>
         </div>
@@ -36,7 +62,11 @@
             <hr>
         </div>
     </div>
+<<<<<<< HEAD
+
+=======
     <!-- <div class="cd-fixed-bg cd-fixed-bg-4"> -->
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
     <div class="row" id="firstRow">
         <div class="col-lg-3">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
@@ -61,6 +91,10 @@
                 <h3>Join us</h3>
                 <button type="button" id="addMember" class="btn btn-primary">Add a member!</button>
             </div>
+<<<<<<< HEAD
+
+=======
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
         </div>
         <div class="col-lg-3">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
@@ -69,8 +103,8 @@
                 <h3>Tight on Cash?</h3>
                 <button type="button" id="changeBudget" class="btn btn-primary">Change Budget Info</button>
             </div>
-        </div>
-        <!-- </div> -->
+      
+     </div> 
     </div>
     <br>
     <br>
@@ -81,8 +115,13 @@
                 <div id="findItemInfo" style="">
                     <div class="form-group">
                         <span class="whichUser">
+<<<<<<< HEAD
+                            <label for="name">Select User:</label>
+                            <select class="form-control" id="nameofUser">
+=======
                             <label for="name">Which user?</label>
                             <select class="form-control nameOfUser">
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                             </select>
                         </span>
                     </div>
@@ -94,10 +133,13 @@
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
                 <fieldset class="form-group">
-                    <legend class="col-form-label col-sm-2 pt-0">This item is: </legend>
+                
+                            <h2 id="itemIs" style="display: inline">Add an Item! </h2><br><br>
+                        <h5> This item is: </h5>
+                <div id="entryForm">
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                        <label class="form-check-label" for="gridRadios1">
+                        <label id-"partOf" class="form-check-label" for="gridRadios1">
                             Part of My List
                         </label>
                         <div class="form-group reveal-if-active">
@@ -119,26 +161,45 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                New Addition to My List
-                            </label>
-                            <div id="item-description" class="reveal-if-active">
-                                <div id="newItem">
-                                    <label for="exampleInputPassword1">Item description:</label>
-                                    <input type="text" class="form-control" id="itemDescription">
-                                </div>
-                                <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                <div class="input-group-append">
-                                    <label>Item Cost:</label>
-                                    <span class="input-group-text">.00</span>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            New Addition to My List
+                        </label>
+                        <div id="item-description" class="reveal-if-active">
+                            <div id="newItem">
+                                <label for="exampleInputPassword1">Item description:</label>
+                                <input type="text" class="form-control" id="itemDescription">
+                            </div>
+                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                                <label>Item Cost:</label>
+                                <span class="input-group-text">.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="cd-fixed-bg cd-fixed-bg--1">
+                        <div class="row">
+                            <div class="col-lg-4"></div>
+                            <div class="col-lg-4">
+                                <div id="findItemInfo" style="">
+                                    <div class="form-group">
+                                        <span class="whichUser">
+                                            <label for="name">Select User:</label>
+                                            <select class="form-control" id="nameOfUser">
+                                            </select>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                 </fieldset>
                 </div>
-                <div class="col-lg-3"></div>
+                <div class="col-lg-4"></div>
             </div>
         </div>
         <div class="cd-fixed-bg cd-fixed-bg--5">
@@ -178,10 +239,72 @@
                             </tbody>
                         </table>
                     </div>
+<<<<<<< HEAD
+                </div> 
+                
+                <div class="col-lg-6">  
+                        <div class="row"> 
+       
+                <h2 style="text-align:center">Add to your wish list!</h2>
+                <h3 style="text-align: center">Tell us about about the item!</h3> 
+=======
                 </div>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                 <div class="col-lg-6">
-                    <h4>Add to your wish list!</h4>
+                    <div id="idk">
+                   
                     <form id="form">
+<<<<<<< HEAD
+                       
+                    </div>
+                        <br>
+                        <br><label>Name:</label>
+                        <br>
+                        <input type="text" name="firstName" id="name">
+                        <br> <label>Item Needed:</label>
+                        <br>
+                        <input type="text" name="itemNeeded" id="item">
+                        <br> <label>Quantity</label>
+                        <br>
+                        <input type="text" name="quantity" id="quantity">
+                        <br> <label>Price:</label>
+                        <br>
+                        <input type="text" name="price" id="price">
+                        
+                </div>
+                
+        
+            
+                
+                <div  id="secondColumn" class="col-lg-6">
+
+                   
+                    <br>
+                    <br> <label>I hope to pay:</label>
+                    <br>
+                    <input type="text" name="firstName" id="priceWish">
+                    <br> <label>Item Description:</label>
+                    <br>
+                    <input type="text" name="itemNeeded" id="itemDescription">
+                    <br> <label>I will pay no more than:</label>
+                    <br>
+                    <input type="text" name="quantity" id="priceMax">
+                    <br> <label>Price:</label>
+                    <br>
+                    <input type="text" name="price" id="price2">
+                </div>
+                </div>
+                </div>
+                </div>
+                <div id="buttons">
+                        <button type="button" id="add-another-item-2" class="btn btn-primary"> Add Another item</button>
+                        <button type="submit" id="submit-form" class="btn btn-primary">Submit</button>
+                </div>
+            
+        </div>
+    </div>
+    </div>
+=======
                         Tell us about about the item!
                         <br>
                         <br> Name:
@@ -208,6 +331,7 @@
             </div>
         </div>
     </div>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
     <div class="cd-fixed-bg cd-fixed-bg--6">
     </div>
     <div class="cd-fixed-bg cd-fixed-bg--3">
@@ -217,6 +341,18 @@
                     <form id="form">
                         <h2>Tell us about yourself!</h2>
                         <br>
+<<<<<<< HEAD
+                        <br><label>Name:</label> 
+                        <br>
+                        <input type="text" name="firstName" id="newName">
+                        <br><label>My budget is:</label> 
+                        <br>
+                        <input type="text" name="dollarAmount" id="dollarName">
+                            <br><br>
+                       
+                        <button type="button" id="add-another-member" class="btn btn-primary"> Add Another Member</button>
+                        <button type="submit" id="form-submit" class="btn btn-primary">Submit</button>
+=======
                         <br> Name:
                         <br>
                         <input type="text" name="firstName" id="newName">
@@ -227,6 +363,7 @@
                             <span class="input-group-text">.00</span>
                         </div>
                         <button type="button" id="add-another-member" class="btn btn-primary"> Add Another Member</button>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                     </form>
                 </div>
                 <div class="col-lg-6 text-center">
@@ -238,23 +375,70 @@
                                     <thead>
                                         <tr>
                                             <th>Name</th>
+<<<<<<< HEAD
+=======
                                             <th>Budget</th>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                                             <!-- <th># of Posts</th>
                                                     <th>See member’s Posts</th>
                                                     <th>New Post</th>
                                                     <th>Delete member</th> -->
                                         </tr>
                                     </thead>
-                                    <tbody id="memberList">
+<<<<<<< HEAD
+                                    <tbody id=“memberList”>
+
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
+    <div class="cd-fixed-bg cd-fixed-bg--7">
+    </div>
+    <div class="cd-fixed-bg cd-fixed-bg--4">
+        <div id="formToChangeBudget">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <form id="budget-form">
+                        <div class="form-group">
+                            <div class="whichUser">
+                                <h3 id="updateBudget"> Update Budget Info</h3>
+                                <label id="select" for="exampleFormControlSelect1">Select User:</label>
+                                <select class="form-control name">
+                                </select>
+                            </div>
+                            <label>New Budget:</label>
+                            <br>
+                            <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                            </div>
+                        </div>
+                    </form>
+=======
+                                    <tbody id="memberList">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </div>
+<<<<<<< HEAD
+    </section>
+    <div class="cd-fixed-bg cd-fixed-bg--5"></div>
+
+
+=======
     <!--    <div class="cd-fixed-bg cd-fixed-bg--7">
     </div>
     <div class="cd-fixed-bg cd-fixed-bg--4">
@@ -282,13 +466,19 @@
         </div>
     </div>
     </section>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
     </section>
     <section id="card-holder"></section>
     <section id="view-selected"></section>
     <br>
     <br>
+<<<<<<< HEAD
+    <!-- code for toggle menu for second row of buttons-->
+    <!-- second row of buttons will be appended here-->
+=======
      code for toggle menu for second row of buttons
      second row of buttons will be appended here
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
     <div class="cd-fixed-bg cd-fixed-bg--9">
         <div class="row">
             <div class="col-lg-3"></div>
@@ -306,6 +496,56 @@
                                         Name
                                     </button>
                                 </h5>
+<<<<<<< HEAD
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div id="table-create" text-align: "center" display: "block">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Item Needed</th>
+                                                <th scope="col">Quantity Needed</th>
+                                                <th scope="col">Budget</th>
+                                                <th scope="col">Recently Purchased</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row"></th>
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Collapsible Group Item #2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+=======
                     </div>
                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div id="table-create" text-align: "center" display: "block">
@@ -339,6 +579,7 @@
                                     </tr>
                                 </tbody>
                             </table>
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                         </div>
                     </div>
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -359,10 +600,23 @@
                                 Collapsible Group Item #3
                             </button>
                         </h5>
+<<<<<<< HEAD
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+=======
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+>>>>>>> c6678ef26b18d91c9feb57bca52a1f2e39514615
                     </div>
                 </div>
             </div>
