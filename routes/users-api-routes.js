@@ -24,18 +24,18 @@ module.exports = function(app) {
     });
   });
 
-  // app.post("/api/User/:id", function(req, res) {
-  //   // Add item to our wish list in our findOne query for selected user
+  app.post("/api/User/:id", function(req, res) {
+    // Add item to our wish list in our findOne query for selected user
     
-  //   db.User.findOne({
-  //     where: {
-  //       id: req.params.id
-  //     },
-  //     include: [db.ItemList]
-  //   }).then(function(dbUser) {
-  //     res.json(dbUser);
-  //   });
-  // });
+    db.User.findOne({
+      where: {
+        id: req.params.id
+      },
+      include: [db.ItemList]
+    }).then(function(dbUser) {
+      res.json(dbUser);
+    });
+  });
 
   app.post("/api/User", function(req, res) {
     db.User.create(req.body).then(function(dbUser) {

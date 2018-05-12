@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("../images/home.jpg");
+    background-image: url("../images/image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ ul {
 }
 li a {
     display: inline-block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -98,15 +98,18 @@ section,
     margin-right: auto;
     text-align: center;
     font: inherit;
-    font-family: roboto, sans-serif
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
 
-.btn-primary {
-    background-color: #6c757d;
+.whichUser {
+    margin-top: 20px;
 }
+
+
 
 #firstRow {
-    margin-top: 50%:
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
@@ -117,14 +120,14 @@ section,
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: burlywood;
+    background-color: white;
     font-size: 20px;
-    font-family: roboto, sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 50px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--1 {
-    background-color: burlywood;
+    background-color: C0C0C0;
     color: white;
     margin-top: 15px;
     min-height: 30;
@@ -140,44 +143,58 @@ th {
 }
 
 .cd-fixed-bg.cd-fixed-bg--2 {
-    background-color: burlywood;
+    background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
     padding: 60px;
 }
 
 .cd-fixed-bg.cd-fixed-bg--3 {
-    background-color: burlywood;
+    background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
 }
 
 .cd-fixed-bg.cd-fixed-bg--4 {
-    background-color: burlywood;
+    background-color:C0C0C0;
     font-size: 1.6rem 
     font-family: roboto, sans-serif;
     transition: transform .2s; 
 }
 
 .cd-fixed-bg.cd-fixed-bg--5 {
-    background-image: url("../images/kitchen.jpg");
+    background-image: url("../images/blackKitchen.jpg");
 }
 
 .cd-fixed-bg.cd-fixed-bg--6 {
-    background-image: url("../images/hangers.jpg");
+    background-image: url("../images/closett.jpg");
 }
 
 .cd-fixed-bg.cd-fixed-bg--7 {
-    background-image: url("../images/home.jpg");
+    background-image: url("../images/image.png");
 }
 
 .cd-fixed-bg.cd-fixed-bg--8 {
-    background-color: burlywood;
+    background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
 }
 
+.cd-fixed-bg.cd-fixed-bg--9 {
+    background-color: C0C0C0;
+}
 
+.cd-fixed-bg.cd-fixed-bg--10 {
+    background-color: C0C0C0;
+}
+/* #story {
+    min-height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    color: white;
+   
+    
+} */
 
 .reveal-if-active {
     opacity: 0;
@@ -209,6 +226,9 @@ h4 {
     color: #FFFFFF;
     font-size: 30px;
     margin-bottom: 30px;
+    COLOR: goldenrod;
+    font-weight: bold;
+}
 }
 
 .container {
@@ -237,6 +257,7 @@ h4 {
 
 #firstRow {
     margin-top: 80px;
+    color: black;
 }
 
 
@@ -252,11 +273,13 @@ a {
 }
 .navbar-container {
     float: right;
+    color: white;
 
 }
 
 nav {
-    background-color: burlywood;
+    background-color: black;
+    color: white;
 }
 
 /* .form-check {
@@ -278,17 +301,18 @@ input, .form-control, .input-group-text {
     border-bottom: 1px solid #000000;
 }
 
+.form-control
 tr, th, td, label, h2, h4, h3, h5, .table {
     color: black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
 }
+
 
 h2, h3 {
     width: 100%;
 }
 
-.whichUser{
-    margin-top: 65px;
-}
 
 #updateBudget {
     font-weight: bold;
@@ -296,14 +320,50 @@ h2, h3 {
     margin-top: 5px;
 }
 
-#secondColumn {
-    margin-top: 20px;
-}
+
 
 #buttons {
-    position: relative;
-    float: right;
-    margin-right: 17%;
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 20px;
+    
 }
+
+.input-wish {
+    padding: 5px 0;
+  
+}
+
+.input-wish > * {
+    display: block;
+    margin: 0 auto;
+}
+
+.headers {
+    margin-top: 10px;
+    color: white(255, 255, 255);
+}
+
+.btn {
+    opacity: 1;
+}
+
+
+#firstRow {
+    height: 10em;
+    padding-top: 2em;
+     background: rgba(95, 95, 110, 0.5);
+    border-top: 1.5px solid #ccc;
+    border-bottom: 1.5px solid #ccc;
+    margin-top: 5.0em;
+}
+
+.help {
+    margin-bottom: 10px;
+}
+
+#dropdown {
+    width: 200%;
+    position: relative;
+    left: -50px;
+}
+}
+

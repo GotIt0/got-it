@@ -1,12 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
   var ItemList = sequelize.define("ItemList", {
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [1]
-      }
-    },
 
     item_name: {
       type: DataTypes.STRING,
@@ -16,8 +9,8 @@ module.exports = function(sequelize, DataTypes) {
       }
     },
 
-    product_category: {
-      type: DataTypes.STRING,
+    product_wish_price: {
+      type: DataTypes.INTEGER,
       allowNull: false,
       validate: {
         len: [1]

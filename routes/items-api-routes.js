@@ -30,11 +30,11 @@ module.exports = function(app) {
   });
 
   // Get route for retrieving a single ItemList
-  app.get("/api/items/:id", function(req, res) {
+  app.get("/api/items/:UserId", function(req, res) {
    
     db.ItemList.findOne({
       where: {
-        id: req.params.id
+        UserId: req.params.id
       },
       include: [db.User]
     }).then(function(dbItems) {
@@ -50,10 +50,10 @@ module.exports = function(app) {
   });
 
   // DELETE route for deleting ItemList
-  app.delete("/api/items/:id", function(req, res) {
+  app.delete("/api/items/:UserId", function(req, res) {
     db.ItemList.destroy({
       where: {
-        id: req.params.id
+        UserId: req.params.id
       }
     }).then(function(dbItems) {
       res.json(dbItems);
