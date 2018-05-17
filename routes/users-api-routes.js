@@ -44,7 +44,7 @@ module.exports = function(app) {
   });
 
    // PUT route for updating posts
-   app.put("/api/User", function(req, res) {
+   app.put("/api/User/:id", function(req, res) {
     db.Post.update(
       req.body,
       {

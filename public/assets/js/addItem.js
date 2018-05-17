@@ -39,8 +39,9 @@ $(document).ready(function() {
 
     // A function for creating an m. Calls getMember upon completion
     function setItem(itemData) {
+        console.log(itemData);
         $.post("/api/items", itemData)
-            .then(getItem);
+            .then(getItem());
     }
 
     // Function for creating a new list row for member
@@ -67,6 +68,7 @@ $(document).ready(function() {
 
     // Function for retrieving member and getting them ready to be rendered to the page
     function getItem() {
+        console.log("one more");
         $.get("/api/items", function(data) {
             itemList.empty();
             var rowsToAdd = [];

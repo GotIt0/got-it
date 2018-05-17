@@ -44,7 +44,9 @@ module.exports = function(app) {
 
   // ItemList route for saving a new ItemList
   app.post("/api/items", function(req, res) {
+    console.log(req, "api hit");
     db.ItemList.create(req.body).then(function(dbItems) {
+      console.log(dbItems, "res");
       res.json(dbItems);
     });
   });

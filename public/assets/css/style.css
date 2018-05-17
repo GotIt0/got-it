@@ -107,10 +107,6 @@ section,
 
 
 
-#firstRow {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
 
 
 
@@ -256,9 +252,15 @@ h4 {
 }
 
 #firstRow {
-    margin-top: 80px;
-    color: black;
+    height: 10em;
+    padding-top: 2em;
+     background: rgba(95, 95, 110, 0.5);
+    border-top: 1.5px solid #ccc;
+    border-bottom: 1.5px solid #ccc;
+    margin-top: 5.0em;
+    margin-bottom: 5.0em;
 }
+
 
 
 a {
@@ -324,6 +326,7 @@ h2, h3 {
 
 #buttons {
     margin-top: 20px;
+    width: 100%;
     
 }
 
@@ -344,17 +347,10 @@ h2, h3 {
 
 .btn {
     opacity: 1;
+
 }
 
 
-#firstRow {
-    height: 10em;
-    padding-top: 2em;
-     background: rgba(95, 95, 110, 0.5);
-    border-top: 1.5px solid #ccc;
-    border-bottom: 1.5px solid #ccc;
-    margin-top: 5.0em;
-}
 
 .help {
     margin-bottom: 10px;
@@ -365,5 +361,5 @@ h2, h3 {
     position: relative;
     left: -50px;
 }
-}
+
 
