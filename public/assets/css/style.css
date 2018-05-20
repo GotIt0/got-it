@@ -1,14 +1,12 @@
 #title {
     font-size: 30px;
 }
-
 body {
     background-image: url("../images/image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-
 #background {
     width: 100%;
     height: 100%;
@@ -18,12 +16,10 @@ body {
     z-index: -1;
     /* Ensure div tag stays behind content; -999 might work, too. */
 }
-
 .stretch {
     width: 100%;
     height: 100%;
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,29 +34,21 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-
-
 li {
     float: right;
 }
-
-
-
 h1 {
-
     text-align: center;
     font-weight: bold;
     font-size: 120px;
     margin-top: 50px;
 }
-
 h3 {
     text-align: center;
     font-size: 22px;
     color: white;
     font-weight: bold;
 }
-
 hr {
     display: block;
     position: relative;
@@ -76,15 +64,12 @@ hr {
     border-top: 1px solid #aaaaaa;
     border-bottom: 1px solid #ffffff;
 }
-
 div,
 section {
     text-align: center;
 }
-
 #functionPlaceHolder,
 .table,
-.whichUser,
 #findItemInfo,
 fieldset .form-group,
 #table,
@@ -100,20 +85,6 @@ section,
     font: inherit;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 }
-
-.whichUser {
-    margin-top: 20px;
-}
-
-
-
-#firstRow {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-
-
 .cd-fixed-bg {
     min-height: 50vh;
     background-size: cover;
@@ -125,65 +96,55 @@ section,
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     padding: 50px;
 }
-
 .cd-fixed-bg.cd-fixed-bg--1 {
     background-color: C0C0C0;
     color: white;
-    margin-top: 15px;
+    margin-top: 35%;
     min-height: 30;
+    max-height: auto;
     transition: transform .2s; 
 }
 .cd-fixed-bg.cd-fixed-bg--1: hover {
     transform: scale(1.0);
 }
-
 label,
 th {
     color: white;
 }
-
 .cd-fixed-bg.cd-fixed-bg--2 {
     background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
     padding: 60px;
 }
-
 .cd-fixed-bg.cd-fixed-bg--3 {
     background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
 }
-
 .cd-fixed-bg.cd-fixed-bg--4 {
     background-color:C0C0C0;
     font-size: 1.6rem 
     font-family: roboto, sans-serif;
     transition: transform .2s; 
 }
-
 .cd-fixed-bg.cd-fixed-bg--5 {
     background-image: url("../images/blackKitchen.jpg");
 }
-
 .cd-fixed-bg.cd-fixed-bg--6 {
     background-image: url("../images/closett.jpg");
 }
-
 .cd-fixed-bg.cd-fixed-bg--7 {
     background-image: url("../images/image.png");
 }
-
 .cd-fixed-bg.cd-fixed-bg--8 {
     background-color: C0C0C0;
     color: white;
     transition: transform .2s; 
 }
-
 .cd-fixed-bg.cd-fixed-bg--9 {
     background-color: C0C0C0;
 }
-
 .cd-fixed-bg.cd-fixed-bg--10 {
     background-color: C0C0C0;
 }
@@ -195,31 +156,25 @@ th {
    
     
 } */
-
 .reveal-if-active {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
 }
-
 input[type="radio"]:checked~.reveal-if-active {
     opacity: 1;
     max-height: 100px;
     /* little bit of a magic number :( */
-
     overflow: visible;
 }
-
 .cd-scrolling-bg {
     min-height: 90%;
     background-image: url("../images/home.jpg");
 }
-
 #table-create {
     font-size: 15px;
     text-align: center;
 }
-
 h4 {
     font-weight: 300;
     line-height: 1.15;
@@ -230,7 +185,6 @@ h4 {
     font-weight: bold;
 }
 }
-
 .container {
     width: 100%;
     padding-right: 15px;
@@ -238,35 +192,33 @@ h4 {
     margin-right: auto;
     margin-left: auto;
 }
-
-
 .justify-content-end {
     -ms-flex-pack: end!important;
     justify-content: flex-end!important;
 }
-
 .flex-column {
     -ms-flex-direction: column!important;
     flex-direction: column!important;
 }
-
 .d-flex {
     display: -ms-flexbox!important;
     display: flex!important;
 }
-
 #firstRow {
-    margin-top: 80px;
-    color: black;
+    min-height: 10em;
+    max-height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+     background: rgba(95, 95, 110, 0.5);
+    border-top: 1.5px solid #ccc;
+    border-bottom: 1.5px solid #ccc;
+    margin-top: 5.0em;
+    margin-bottom: 5.0em;
 }
-
-
 a {
     color: black;
     float: right;
-
 }
-
 .navbargroup {
     width: 100%;
     
@@ -274,96 +226,71 @@ a {
 .navbar-container {
     float: right;
     color: white;
-
 }
-
 nav {
     background-color: black;
     color: white;
 }
-
 /* .form-check {
     margin-top: 30px;
 } */
-
 #itemIs {
     margin-bottom: 35px;
     font-weight: bold;
 }
-
 #entryForm {
     margin-top: 35px;
 }
-
+.inputFields {
+    max-width: 100%;
+    width: 100%;
+}
 input, .form-control, .input-group-text {
     background: transparent;
     border: none;
     border-bottom: 1px solid #000000;
 }
-
 .form-control
-tr, th, td, label, h2, h4, h3, h5, .table {
+tr, th, td, label, h2, h4, h5, .table {
     color: black;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-
 }
-
-
+ th {
+    font-size: 1em;
+ }
 h2, h3 {
     width: 100%;
 }
-
-
 #updateBudget {
     font-weight: bold;
     color: black;
     margin-top: 5px;
 }
-
-
-
 #buttons {
     margin-top: 20px;
+    width: 100%;
     
 }
-
 .input-wish {
     padding: 5px 0;
   
 }
-
 .input-wish > * {
     display: block;
     margin: 0 auto;
 }
-
 .headers {
     margin-top: 10px;
     color: white(255, 255, 255);
 }
-
 .btn {
     opacity: 1;
 }
-
-
-#firstRow {
-    height: 10em;
-    padding-top: 2em;
-     background: rgba(95, 95, 110, 0.5);
-    border-top: 1.5px solid #ccc;
-    border-bottom: 1.5px solid #ccc;
-    margin-top: 5.0em;
-}
-
 .help {
     margin-bottom: 10px;
 }
-
 #dropdown {
-    width: 200%;
+    width:50%;
     position: relative;
-    left: -50px;
+    left: 25%;
 }
-}
-

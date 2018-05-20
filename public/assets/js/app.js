@@ -24,11 +24,13 @@ $(document).ready(function() {
 
 
     });
+
+    $("#sendmessage").click(function(){
+
+    })
+
 })
 
-$("#add-another-item").click(function(){
-    $(".input-wish").reset();
-})
 
 
 // $("#addItem").click(function() {

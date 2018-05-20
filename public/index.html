@@ -2,27 +2,18 @@
 
 <head>
     <title>Got it!</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./assets/js/script.js"></script>
-  
     <script type="text/javascript" src="./assets/js/app.js"></script>
-    <script type="text/javascript" src="./assets/js/wish.js"></script>
-
 </head>
 
 <body>
     <!--code for nav-bar-->
-
-
     <nav class="navbar navbar-light navbar-right">
         <div class="navbar-brand mb-0 h1 navbargroup">
             <div class="navbar-container">
@@ -39,14 +30,10 @@
                 </ul>
             </div>
         </div>
-
     </nav>
-
-    <!-- code for menu buttons-->
-
-
+    <!-- code for menu heading-->
     <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-12">
             <hr>
             <div id="heading">
                 <h1> GOT IT</h1>
@@ -55,10 +42,9 @@
             <hr>
         </div>
     </div>
-
-    <div id="story">
+    <!-- code for menu buttons-->
     <div class="row" id="firstRow">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
@@ -66,7 +52,7 @@
                 <button type="button" id="boughtIitem" class="btn btn-secondary help">I just bought an item</button>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
@@ -74,157 +60,128 @@
                 <button type="button" id="wishList" class="btn btn-secondary help">Wish List</button>
             </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
                 <div class="icon_container d-flex flex-column justify-content-end">
                 </div>
                 <h3 class="headers">Join us</h3>
                 <button type="button" id="addMember" class="btn btn-secondary help">Add a member!</button>
             </div>
-
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
             <div class="features_item d-flex flex-column align-items-center justify-content-end text-center">
                 <div class="icon_container d-flex flex-column justify-content-end">
-
                 </div>
                 <h3 class="headers">Tight on Cash?</h3>
                 <button type="button" id="changeBudget" class="btn btn-secondary help">Change Budget Info</button>
             </div>
-
         </div>
     </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-lg-3"></div>
-        <div class="col-lg-6">
-            <section id="functionPlaceHolder">
-                <div id="findItemInfo" style="display:none">
-                    <div class="form-group">
-                        <span class="whichUser">
-                            <label for="name">Select User:</label>
-                            <select class="form-control" class="nameofUser">
-                            </select>
-                        </span>
-                    </div>
-                </div>
-        </div>
-    </div>
+    <!-- code for Add an Item-->
     <div class="cd-fixed-bg cd-fixed-bg--1">
-        <div class="row"></div>
         <div class="row" id="radio-buttons">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <fieldset class="form-group">
-
                     <h2 id="itemIs">Add an Item! </h2>
                     <h5> This item is: </h5>
                     <div id="entryForm">
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                            <label id- "partOf" class="form-check-label" for="gridRadios1">
+                            <label id="partOf" class="form-check-label" for="gridRadios1">
                                 Part of My List
                             </label>
-                            <div class="form-group reveal-if-active">
-                                <div id="chooseItem">
-                                    <label for="name">Which item?: </label>
-                                    <select class="form-control" class="nameofUser">
+                            <div class="form-group reveal-if-active" id="chooseItem">
+                                <div class="row inputFields">
+                                    <span class="whichUser col-4">
+                                    <label for="name">Select User:</label>
+                                    <select class="form-control selectUser">
                                     </select>
-                                </div>
-                                <div class="col-lg-3"></div>
-                                <div class="row">
-                                    <div class="col-lg-3"></div>
-                                    <div id="dollar-amount" class="col-lg-6">
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label>Item Cost:</label>
-                                                <span class="input-group-text">$</span>
-                                            </div>
-                                        </div>
+                                </span>
+                                    <span class="col-4">
+                                    <label for="name">Which item?:</label>
+                                    <select class="form-control" class="nameofItem">
+                                    </select>
+                                </span>
+                                    <span class="col-3">
+                                    <label>Item Cost:</label>
+                                    <span class="input-group-text">$</span>
+                                    </span>
+                                    <div class="col-1">
+                                        <button type="submit" id="item-submit-1" class="btn btn-secondary">Submit</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                New Addition to My List
-                            </label>
-                            <div id="item-description" class="reveal-if-active">
-                                <div id="newItem">
-                                    <label for="exampleInputPassword1">Item description:</label>
-                                    <input type="text" class="form-control" id="itemDescription">
-                                </div>
-                                <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
-                                <div class="input-group-append">
-                                    <label>Item Cost:</label>
-                                    <span class="input-group-text">.00</span>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-
-
-                    <div class="row">
-                        <div class="col-lg-4"></div>
-                        <div class="col-lg-4">
-                            <div id="findItemInfo" style="">
-                                <div class="form-group">
-                                    <span class="whichUser">
-                                        <label for="name">Select User:</label>
-                                        <select class="form-control selectUser" class="nameOfUser">
-                                        </select>
-                                    </span>
-                                </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            New Addition to My List
+                        </label>
+                        <div id="item-description newItem" class="reveal-if-active">
+                            <div class="row inputFields">
+                                <span class="whichUser col-4">
+                                    <label for="name">Select User:</label>
+                                    <select class="form-control selectUser">
+                                    </select>
+                                </span>
+                                <span class="col-4">
+                                <label for="exampleInputPassword1">Item description:</label>
+                                <input type="text" class="form-control" id="itemDescription">
+                            </span>
+                                <span>
+                                <label>Item Cost:</label>
+                                <span class="input-group-text">.00</span>
+                                </span>
+                                                                    <div class="col-1">
+                                        <button type="submit" id="item-submit-2" class="btn btn-secondary">Submit</button>
+                                    </div>
                             </div>
                         </div>
                     </div>
                 </fieldset>
             </div>
-            <div class="col-lg-4"></div>
         </div>
     </div>
+    </div>
+    <!-- code for wish list-->
     <div class="cd-fixed-bg cd-fixed-bg--5">
     </div>
     <div class="cd-fixed-bg cd-fixed-bg--2">
         <div class="row">
-                <div class="col-lg-6">
-                        <div class="row">
-                           
-                            <h2 style="text-align:center">Add to your wish list!</h2>
-                            <h3 style="text-align: center">Tell us about about the item!</h3>
-                            <span class="whichUser">
+            <div class="col-lg-6 col-xs-12">
+                <div class="row">
+                    <div class="col-12">
+                    <h2 style="text-align:center">Add to your wish list!</h2>
+                    <h5 style="text-align: center">Tell us about about the item!</h5>
+                    <hr>
+                    <span class="whichUser" style="text-align: center">
                                     <label for="name">Select User:</label>
-                                    <select class="form-control selectUser" id="dropDown" class="nameofUser">
+                                    <select class="form-control selectUser" id="dropDown">
                                     </select>
                                 </span>
-                               
-                            <div class="col-lg-12">
-                                <div class="input-wish form-group">
-                                   
-                                </div>
-                                <div class="input-wish">
-                                    <label>Item Needed:</label>
-                                    <input type="text" name="itemNeeded" id="item">
-                                </div>
-                                <div class="input-wish">
-                                    <label>Quantity:</label>
-                                    <input type="text" name="quantity" id="quantity">
-                                </div>
-                                <div class="input-wish">
-                                    <label>Price:</label>
-                                    <input type="text" name="price" id="price">
-                                </div>
-                                <div class="btn-group mt-3">
-                                     <button type="button" id="add-another-item" class="btn btn-secondary"> Add Item</button>
-                                    </div>
-                            </div>
-                        
-                            </div>
-                            </div>
-            <div class="col-lg-6">
+                    
+                        <div class="input-wish form-group">
+                        </div>
+                        <div class="input-wish">
+                            <label>Item Needed:</label>
+                            <input type="text" name="itemNeeded" id="item">
+                        </div>
+                        <div class="input-wish">
+                            <label>Quantity:</label>
+                            <input type="text" name="quantity" id="quantity">
+                        </div>
+                        <div class="input-wish">
+                            <label>Price:</label>
+                            <input type="text" name="price" id="price">
+                        </div>
+                        <div class="btn-group mt-3">
+                            <button type="button" id="add-another-item" class="btn btn-secondary"> Add Item</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-12">
                 <div>
                     <table class="table">
                         <thead>
@@ -233,46 +190,18 @@
                                 <th scope="col">Item Description</th>
                                 <th scope="col">Quantity </th>
                                 <th scope="col">Item Price</th>
-                                
                                 <th scope="col">Delete Item</th>
                             </tr>
                         </thead>
                         <tbody id="neededList">
-                            <!-- <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <th scope="row"></th>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr> -->
                         </tbody>
                     </table>
                 </div>
-              
             </div>
-
-         
-
-
-                </form>
-
-                </div>
-         
             </div>
         </div>
-
-
+    </div>
+    </div>
     </div>
     </div>
     </div>
@@ -281,7 +210,7 @@
     <div class="cd-fixed-bg cd-fixed-bg--3">
         <div id="formToAddMember">
             <div class="row">
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 col-xs-12 text-center">
                     <form id="form-new-member">
                         <h2>Tell us about yourself!</h2>
                         <div class="input-wish">
@@ -292,14 +221,12 @@
                             <label>My budget is:</label>
                             <input type="text" name="dollarAmount" id="budget">
                         </div>
-
                         <div class="btn-group mt-3">
-                        
                             <button type="submit" id="form-submit" class="btn btn-secondary">Submit</button>
                         </div>
                     </form>
                 </div>
-                <div class="col-lg-6 text-center">
+                <div class="col-lg-6 col-xs-12 text-center">
                     <div class="row">
                         <div class="col-md-8 offset-md-2">
                             <div class="member-container">
@@ -316,14 +243,12 @@
                                         </tr>
                                     </thead>
                                     <tbody id="memberList">
-
                                     </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -332,8 +257,8 @@
     <div class="cd-fixed-bg cd-fixed-bg--4">
         <div id="formToChangeBudget">
             <div class="row">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4">
+                <div class="col-4"></div>
+                <div class="col-4">
                     <form id="budget-form">
                         <div class="form-group">
                             <div class="whichUser">
@@ -346,7 +271,7 @@
                             </div>
                             <div class="input-wish">
                                 <label>New Budget:</label>
-                                 <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
+                                <input type="text" class="form-control" aria-labelledby="Amount (to the nearest dollar)">
                                 <div class="input-group-append">
                                 </div>
                             </div>
@@ -354,26 +279,19 @@
                         <button type="submit" id="form-submit" class="btn btn-secondary">Submit</button>
                     </form>
                 </div>
-                <div class="col-lg-4"></div>
+                <div class="col-4"></div>
             </div>
         </div>
     </div>
-    </section>
+    </div>
     <div class="cd-fixed-bg cd-fixed-bg--5"></div>
-
-
-    </section>
-    <section id="card-holder"></section>
-    <section id="view-selected"></section>
-
-
     <!-- code for toggle menu for second row of buttons-->
     <!-- second row of buttons will be appended here-->
     <div class="cd-fixed-bg cd-fixed-bg--9">
         <div class="row">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">
-                    <h4>Select a User to View Items</h4>
+                <h4>Select a User to View Items</h4>
                 <div class="card">
                     <div class="card-header" id="headingTwo">
                         <h5>
@@ -388,119 +306,102 @@
                                         Noor
                                     </button>
                                 </h5>
-                            </div>
-                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div id="table-create" text-align: "center" display: "block">
-                                    <table class="table">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Item Needed</th>
-                                                <th scope="col">Quantity Needed</th>
-                                                <th scope="col">Budget</th>
-                                                <th scope="col">Recently Purchased</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row"></th>
-                                                <td></td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Noa
-                            </button>
-                        </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="table-create" text-align: "center" display: "block">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Item Needed</th>
+                                        <th scope="col">Quantity Needed</th>
+                                        <th scope="col">Budget</th>
+                                        <th scope="col">Recently Purchased</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row"></th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Noa
+                    </button>
+                    </h5>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h5>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5>
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Valerie
                             </button>
                         </h5>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
-                            et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                            Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-                            synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    </div>
     <div class="cd-fixed-bg cd-fixed-bg--6">
     </div>
-<div class="cd-fixed-bg cd-fixed-bg--10">
-
+    <div class="cd-fixed-bg cd-fixed-bg--10">
         <section id="contact" class="content-section text-center">
-                <div class="contact-section">
-                    <div class="container">
-                      <h2>Contact Us</h2>
-           
-                      <div class="row">
+            <div class="contact-section">
+                <div class="container">
+                    <h2>Contact Us</h2>
+                    <div class="row">
                         <div class="col-md-12 col-md-offset-2">
-                          <form class="form-horizontal">
-                            <div class="form-group">
-                              <label for="exampleInputName2">Name</label>
-                              <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-                            </div>
-                            <div class="form-group">
-                              <label for="exampleInputEmail2">Email</label>
-                              <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-                            </div>
-                            <div class="form-group ">
-                              <label for="exampleInputText">Your Message</label>
-                             <textarea  class="form-control" placeholder="Description"></textarea> 
-                            </div>
-                            <button type="submit" class="btn btn-default">Send Message</button>
-                          </form>
-        
-                          <hr>
-                           
-  
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="exampleInputName2">Name</label>
+                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail2">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+                                </div>
+                                <div class="form-group ">
+                                    <label for="exampleInputText">Your Message</label>
+                                    <textarea class="form-control" placeholder="Description"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default">Send Message</button>
+                            </form>
+                            <hr>
                         </div>
-                      </div>
                     </div>
                 </div>
-              </section>
-</div>
-
+            </div>
+        </section>
+    </div>
 </body>
-
 <script type="text/javascript" src="./assets/js/addMember.js"></script>
 <script type="text/javascript" src="./assets/js/addItem.js"></script>
+
 </html>
